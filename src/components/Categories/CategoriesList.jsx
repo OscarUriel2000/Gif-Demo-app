@@ -8,7 +8,7 @@ const CategoriesList = ({categories = []}) => {
         </li>
       ))
       }
-    </ol>
+      </ol>
     )
 }
 export default CategoriesList

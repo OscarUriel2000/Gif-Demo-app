@@ -12,7 +12,7 @@ const Categories = ({categories = [], setCategories}) => {
         <CategoriesList 
         categories={categories}
         />
-        </div>
+    </div>
     )
 }
 export default Categories
