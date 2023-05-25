@@ -4,13 +4,10 @@ import Categoryinput from "./Categoryinput";
 const Categories = ({categories = [], setCategories}) => {
     return (
     <div>
-        <Categoryinput 
-        categories={categories} 
-        setCategories={setCategories}
+        <Categoryinput categories={categories} setCategories={setCategories}
         />
       <br/>
-        <CategoriesList 
-        categories={categories}
+        <CategoriesList categories={categories} setCategories={setCategories}
         />
     </div>
     )
